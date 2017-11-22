@@ -1,5 +1,5 @@
 {
-  "name": "re_node_backend",
+  "name": "re-node-backend",
   "version": "1.0.0",
   "description": "Node backend for RE_ chatbot hosted on Chatfuel to connect to Dialogflow (formerly api.ai)",
   "main": "dist",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keyvanm/node_re_backend"
+    "url": "git+https://github.com/keyvanm/node-re-backend"
   },
   "author": "Keyvan Mosharraf",
   "license": "MIT",
@@ -48,7 +48,7 @@
     "nodemon": "^1.9.2"
   },
   "bugs": {
-    "url": "https://github.com/keyvanm/node_re_backend/issues"
+    "url": "https://github.com/keyvanm/node-re-backend/issues"
   },
-  "homepage": "https://www.messenger.com/t/REchatbot"
+  "homepage": "https://www.facebook.com/REchatbot/"
 }
