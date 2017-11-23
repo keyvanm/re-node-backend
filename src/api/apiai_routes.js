@@ -34,6 +34,7 @@ let handleError = (response) => (error) => {
 
 
 const sendQueryToApiAi = (req, res) => {
+	console.log(req.body);
   let request = apiai_client.textRequest(req.body.queryString, {
 		sessionId: req.params.sessionId,
 		contexts: [{
