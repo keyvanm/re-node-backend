@@ -2,6 +2,10 @@
   "name": "re-node-backend",
   "version": "1.0.0",
   "description": "Node backend for RE_ chatbot hosted on Chatfuel to connect to Dialogflow (formerly api.ai)",
+  "engines": {
+    "node": "9.2.0",
+    "npm": "5.5.1"
+  },
   "main": "dist",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
